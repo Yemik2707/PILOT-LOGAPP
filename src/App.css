@@ -1,38 +1,143 @@
-.App {
-  text-align: center;
+.App{
+  background-image: url("https://scx1.b-cdn.net/csz/news/800a/2019/toomanyairpl.jpg");  
+  background-repeat: no-repeat; 
+  background-size: cover;   
+  width: 100vw;
+  height: 100vh;
+  margin:10px;
+  position: relative;
+  padding-top: 80px;
+
+}
+.time{
+   border-radius: 15px;
+    width: 60vw;
+    height: 50px;
+    margin: 30px;
+    margin-left: 10px;  
+    background-color:white;
+    padding-bottom:10px;
+}
+.timelog{
+  display:flex;
+  width:60vw;
+  margin:0px;
+  margin-left: 300px; 
+  border-radius: 10px;
+  margin-top: 50px;
+}
+.form{
+  background-color: rgba(255, 145, 0, 0.2);
+  border: 5px solid  chocolate;
+  margin-left: -250px;
+  width: 13vw;
+  height: 400px;
+  position: fixed;
+  border-radius: 10px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+
+
+
+input{
+  margin:10px;
+  padding:10px;
+  border-radius: 5px;
+}
+h3{
+  display: inline;
+  font-family:sans-serif;
+  color:rebeccapurple;
+  margin: auto;
+}
+h1{  
+margin-left:480px;
+text-align: center;
+color:white;
+width:30vw;
+height:50px;
+font-family:'Times New Roman';
+padding-left: 20px;
+padding-top: 20px;
+text-decoration: underline;
+border: 5px solid chocolate;
+border-radius: 10px;
+background-color: rgba(255, 145, 0, 0.2);
+}
+h2{
+  border-radius: 10px;
+  width: 10vw;
+  height: 30px;
+  margin-left: 10px;  
+  background-color:rgba(255, 145, 0, 0.2);
+  color:white;
+  border: 5px solid chocolate;
+  position:absolute;
+  margin-left:940px; 
+  margin-top: -120px;
+  font-family:'Times New Roman';
+  padding-top: 10px;
+  padding-left: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+
+
+.add{
+  padding:20px;
+  width:100px;
+  color:chocolate; 
+  margin:45px;
+  font-weight: bold;
+  border-radius: 10px;
+  font-size: large;
+}
+.delete{
+  margin:20px;
+  color:chocolate; 
+  font-weight: bold;
+  border-radius: 5px;
+
+}
+.save{
+  margin:10px;
+  color:chocolate; 
+  font-weight: bold;
+  border-radius: 5px;
+}
+.edit{
+  color:chocolate; 
+  font-weight: bold;
+  border-radius: 5px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+ .result1{
+  margin:30px;
+  color:chocolate;
+  border-radius: 5px;
+} 
+ .result2{
+  margin:30px;
+   color:chocolate; 
+   border-radius: 5px;
+ }
+.result3{
+  margin:30px;
+  color:chocolate;
+  border-radius: 5px;
 }
+.result4{
+  /* background-color: rgba(0, 0, 255, .2); */
+  margin:30px;
+  color:chocolate;
+  border-radius: 5px;
+  
+} 
+
+
+
+
